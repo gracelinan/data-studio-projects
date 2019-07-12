@@ -1,0 +1,111 @@
+﻿Metadata document
+26th June 2019: 
+
+This release provides outcomes by degree subject studied and Provider, focusing on graduate outcomes and earnings in the 2014/15 tax year for the 2008/09, 2010/11 and 2012/12 cohorts (one, three, five years after graduation), in the 2015/16 tax year for the 2009/10, 2011/12 and 2013/14 cohorts (one, three and five years after graduation) and in the 2016/17 tax year for the 2010/11, 2012/13 and 2014/15 cohorts (one, three and five years after graduation).
+
+Please see the text for more detailed information about the measures used in this publication.
+
+Coverage
+This publication looks at those who graduated with a first degree qualification from Higher Education Institutions (HEIs) in Great Britain or from a Further Education College in England. The data are split by subject studied and gender.  Figures are presented for all graduates and have not been split by full-time or part-time mode of study.
+
+All figures are based on UK tax, benefit and student records only: activity of those who move abroad to work or study after graduating is not reflected in the employment or further study figures. 
+
+Years after graduation
+The time periods used in this publication are one, three and five years after graduation, which refers to the first, third and fifth full tax years after graduation, respectively, and all outcomes are based on activity in the 2014/15 tax year for the 2008/09, 2010/11 and 2012/13 cohorts, the 2015/16 tax year for the 2009/10, 2011/12 and 2013/14 cohorts and the 2016/17 tax year for the 2010/11, 2012/13 and 2014/15. For instance, for the 2012/13 graduation cohort, the figures one year after graduation refer to employment and earnings outcomes in the 2014/15 tax year. This time period was picked as graduates are unlikely to have been engaged in economic activity for the whole tax year that overlaps with the graduation date. 
+
+Subject areas
+The subjects covered by this publication are based on level 2 of the Common Aggregation Hierarchy (CAH). We therefore cover the following 34 subjects:
+
+CAH2 Code	Subject
+CAH01-01	medicine and dentistry
+CAH02-01	nursing
+CAH02-02	pharmacology, toxicology and pharmacy
+CAH02-03	subjects allied to medicine not otherwise specified
+CAH03-01	biosciences
+CAH03-02	sport and exercise sciences
+CAH04-01	psychology
+CAH05-01	veterinary sciences
+CAH06-01	agriculture, food and related studies
+CAH07-01	physics and astronomy
+CAH07-02	chemistry
+CAH07-03	physical, material and forensic sciences
+CAH08-01	general and others in sciences
+CAH09-01	mathematical sciences
+CAH10-01	engineering
+CAH10-02	technology
+CAH11-01	computing
+CAH12-01	geographical and environmental studies
+CAH13-01	architecture, building and planning
+CAH14-01	humanities and liberal arts (non-specific)
+CAH15-01	sociology, social policy and anthropology
+CAH15-02	economics
+CAH15-03	politics
+CAH15-04	health and social care
+CAH16-01	law
+CAH17-01	business and management
+CAH18-01	communications and media
+CAH19-01	English studies
+CAH19-02	Celtic studies
+CAH19-03	languages, linguistics and classics
+CAH20-01	history and archaeology
+CAH20-02	philosophy and religious studies
+CAH21-01	creative arts and design
+CAH22-01	education and teaching
+CAH23-01	combined and general studies
+
+Employment outcomes
+Outcomes for UK graduates are presented for those who have been successfully matched to the Department for Work and Pensions’ Customer Information System (CIS) or if they have been matched to a further study instance on the HESA Student Record. In this publication, these individuals are referred to as matched.  
+
+Graduates who have been matched are then placed in one of five outcomes categories. These are:
+Activity not captured: graduates who have been successfully matched to CIS but do not have any employment, out-of-work benefits or further study records in the tax year of interest. Reasons for appearing in this category include: moving out of the UK after graduation for either work or study, earning below the Lower Earnings Limit or voluntarily leaving the labour force.
+No sustained destination: graduates who have an employment or out-of-work benefits record in the tax year in question but were not classified as being in ‘sustained employment’ and do not have a further study record.
+Sustained employment only: graduates are considered to be in sustained employment if they were employed for at least one day for five out of the six months between October and March of the tax year in question or if they had a self-employment record in that tax year and earnings from partnership or sole-trader enterprises of over £0 (profit from self-employment). To be in the sustained employment only category, graduates must not have a record of further study in the tax year in question.
+Sustained employment with or without further study: includes all graduates with a record of sustained employment, regardless of whether they also have a record of further study. A graduate is defined as being in further study if they have a valid higher education study record at any UK HEI on the HESA database in the relevant tax year. The further study does not have to be at postgraduate level to be counted. 
+Sustained employment, further study or both: includes all graduates with a record of sustained employment or further study. This category includes all graduates in the ‘sustained employment with or without further study’ category as well as those with a further study record only.
+
+Earnings outcomes
+Earnings are presented for those classified as being in sustained employment and where we have a valid earnings record from the P14 and/or Self Assesment tax return. Earnings from self-employment have been included in 'Total' earnings in this release. Those in further study are excluded as their earnings would be more likely to relate to part-time jobs. 
+PAYE only earnings are also reported.  These earnings figures have been annualised. For each graduate earning from PAYE, the earnings reported for them on the HMRC P14 data for a given tax year are divided by the number of days recorded in employment across that same tax year. This provides an average daily wage which is then multiplied by the number of days in the tax year to calculate their annualised earnings. 
+All earnings from self-employment are taken as provided (not annualised) and are assumed to relate to the full tax year.
+All earnings presented are nominal. They represent the cash amount an individual was paid and are not adjusted for inflation (the general increase in the price of goods and services). 
+
+
+List of variable names and their description
+
+tax_year			Tax year in which outcomes and earnings relate to.
+academic_year			Academic year in which the group completed their first degree.
+YAG				Number of years after graduation.
+XINSTC01			Country of provider
+ukprn				Unique identification code of the provider
+Provider_name			Name of the provider
+inst_region			Region where provider is based
+inst_type			The provider type (Higher Education Institution (HEI), Further Education College (FEC), Alternative Provider (AP))
+subject				Subject studied
+subject_name			Subject studied at degree (34 CAH2 categories)
+sex				Sex of graduate
+grads				Number of graduates included in calculations.
+unmatched			Percentage of graduates that have been classed as unmatched.
+matched				Number of graduates that have been classed as matched.
+activity_not_captured		Percentage of matched graduates whose activity could not be captured.
+no_sust_dest			Percentage of matched graduates with an unsustained destination.
+sust_emp_only			Percentage of graduates with a record or sustained employment only.
+sust_emp_with_or_without_fs	Percentage of graduates with a record or sustained employment (these graduates may or may not have a further study record in addition to a sustained employment record).
+sust_emp_fs_or_both		Percentage of graduates with a record or sustained employment, a record of further study, or both.
+total_earnings_num_included	Number of matched graduates included in the total earnings calculations (graduates in PAYE employment or self-employment or both) 
+total_LQ			Total earnings lower quartile (PAYE earnings annualised, self-employment non annualised).
+total_median			Median total earnings (PAYE earnings annualised, self-employment non annualised).
+total_UQ			Total earnings upper quartile (PAYE earnings annualised, self-employment non annualised).
+PAYE_earnings_num_included	Number of matched graduates included in the PAYE earnings calculations (graduates in PAYE employment only).
+PAYE_LQ				PAYE earnings lower quartile (PAYE earnings annualised).	
+PAYE_median			Median PAYE earnings (PAYE earnings annualised).
+PAYE_UQ				PAYE earnings upper quartile (PAYE earnings annualised).
+PA_num_included			Number of matched graduates included in the prior attainment calculations
+PA_median			Median prior attainment value
+PA_rank				Provider level prior attainment rank from all providers
+PA_band				Prior attainment band.
+POLAR_num_included		Number of matched graduates included in the POLAR calculations
+POLAR_percent			Percentage of graduates in POLAR group 1 (of those eligible to be included in POLAR calculations).
+POLAR_include_percent		Percentage of graduates included in POLAR calculations .
+PA_include_percent		Percentage of graduates included in prior attainment calculations.
+
+
